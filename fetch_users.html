@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fetch Users</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    #loadUsers {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #userContainer {
+      margin-top: 20px;
+    }
+
+    .user-card {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>User List</h1>
+  <button id="loadUsers">Load Users</button>
+
+  <!-- This is where the user cards will be shown -->
+  <div id="userContainer"></div>
+
+  <!-- Link to the JS file -->
+  <script src="fetch-users.js"></script>
+</body>
+</html>
