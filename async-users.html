@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Async Await User List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .user-card {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      background-color: #f2f2f2;
+    }
+
+    #loader {
+      display: none;
+      font-style: italic;
+      color: gray;
+    }
+
+    #error {
+      color: red;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Async/Await User Loader</h2>
+  <button id="loadUsers">Load Users</button>
+  <p id="loader">Loading users, please wait...</p>
+  <p id="error">Failed to load users. Please try again later.</p>
+  <div id="userContainer"></div>
+
+  <script src="async-users.js"></script>
+</body>
+</html>
